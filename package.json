@@ -33,7 +33,6 @@
     "class-validator": "^0.14.0",
     "cookie-parser": "^1.4.6",
     "csurf": "^1.11.0",
-    "node": "^15.0.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
@@ -83,5 +82,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "volta": {
+    "node": "16.17.0"
   }
 }
