@@ -12,4 +12,8 @@ export class createEq {
   @IsString()
   @IsOptional()
   description?: string;
+
+  @IsString()
+  @IsNotEmpty()
+  quantity: string;
 }

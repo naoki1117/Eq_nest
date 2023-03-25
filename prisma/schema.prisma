@@ -39,6 +39,7 @@ model Equipment {
   description String?
   userId Int
   category String
+  quantity String
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   

@@ -1,4 +1,4 @@
-import { IsNotEmpty, IsString, IsOptional } from 'class-validator';
+import { IsNotEmpty, IsString, IsOptional, IsNumber } from 'class-validator';
 
 export class updateEq {
   @IsString()
@@ -10,6 +10,9 @@ export class updateEq {
   description?: string;
 
   @IsString()
-  @IsOptional()
-  categoryId?: number;
+  category: string;
+
+  @IsString()
+  @IsNotEmpty()
+  quantity: string;
 }
