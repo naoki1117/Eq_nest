@@ -40,7 +40,7 @@ export class AuthController {
       // secure: false,
       secure: true,
       sameSite: 'none',
-      path: '',
+      path: '/',
     });
     return {
       message: 'ok',
