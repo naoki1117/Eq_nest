@@ -1,2 +1,2 @@
 -- AlterTable
-ALTER TABLE "Equipment" ADD COLUMN     "limitCount" TEXT;
+-- ALTER TABLE "Equipment" ADD COLUMN     "limitCount" TEXT;
