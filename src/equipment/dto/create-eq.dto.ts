@@ -14,6 +14,10 @@ export class createEq {
   description?: string;
 
   @IsString()
+  @IsOptional()
+  limitCount?: string;
+
+  @IsString()
   @IsNotEmpty()
   quantity: string;
 }

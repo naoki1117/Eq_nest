@@ -10,6 +10,10 @@ export class updateEq {
   description?: string;
 
   @IsString()
+  @IsOptional()
+  limitCount?: string;
+
+  @IsString()
   category: string;
 
   @IsString()

@@ -37,6 +37,7 @@ model Equipment {
   updatedAt DateTime @updatedAt
   name String
   description String?
+  limitCount String?
   userId Int
   category String
   quantity String
